@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Aleksa Petrovic, aleksanrt3319@gs.viser.edu.rs" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Bioskop</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" id="logo" alt="" width="30" height="30" class="d-inline-block align-text-top" />
+        VIŠER Bioskop
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Pocetna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="filmovi.html">Filmovi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="clanstvo.html">Članstvo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galerija.html">Galerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="display-4">Članstvo</h1>
+    <hr />
+    <p>
+      ŽELITE DA POSTANETE VISER BIOSKOP ČLAN? CENA REGISTRACIJE JE 500 DIN I VRLO JE
+      JEDNOSTAVNA, A DEFINITIVNO SE ISPLATI. SAMO KAO VISER BIOSKOP ČLAN
+      MOŽETE DA UŽIVATE U ODREĐENIM POGODNOSTIMA KOJE VAM SE PRUŽAJU!
+    </p>
+    <div class="row" style="background-image: url(img/background-2.jpg); background-attachment: fixed;">
+      <img class="img-fluid" src="img/clanstvo.jpg" alt="" style="max-width: 70%; margin: auto; border-radius:30px;" />
+    </div>
+    <br /><br />
+    <div class="row">
+      <div class="accordion" id="Harmonika">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="naslovPrvi">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#ZatvoriPrvi">
+              Mogućnost online rezervacije bioskopskih ulaznica!
+            </button>
+          </h2>
+          <div id="ZatvoriPrvi" class="accordion-collapse collapse" aria-labelledby="naslovPrvi"
+            data-bs-parent="#Harmonika">
+            <div class="accordion-body">
+              Kao VISER Bioskop član imate mogućnost online rezervacije
+              bioskopskih ulaznica. Direktnim odlaskom na prikaz sedišta u sali možete odabrati
+              željena mesta i rezervisati karte. Potvrdu o rezervaciji treba
+              odštampati ili samo zapamtiti broj rezervacije kako biste
+              preuzeli svoje bioskopske ulaznice na blagajni bioskopa,
+              najkasnije pola sata pre početka željene projekcije.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="NaslovDrugi">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#ZatvoriDrugi">
+              Informisanje o najaktuelnijim događajima i filmovima preko VISER
+              Bioskop newslettera
+            </button>
+          </h2>
+          <div id="ZatvoriDrugi" class="accordion-collapse collapse" aria-labelledby="NaslovDrugi"
+            data-bs-parent="#Harmonika">
+            <div class="accordion-body">
+              Kao članovi možete nedeljno dobijati besplatni newsletter o
+              repertoaru vašeg omiljenog bioskopa, kao i informacije o
+              događajima i akcijama. Na newsletter se možete prijaviti u odeljku "Članstva" i isto tako se
+              možete i odjaviti. Prvobitno je potrebno da se prijavite u polju "prijave
+              članstva" sa korisničkim imenom i lozinkom. Specijalni
+              newsletter se šalje isključivo za određene filmove ili događaje.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="NaslovTreci">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#ZatvoriTreci">
+              Svake nedelje novi nagradni konkurs - samo za članove
+            </button>
+          </h2>
+          <div id="ZatvoriTreci" class="accordion-collapse collapse" aria-labelledby="NaslovTreci"
+            data-bs-parent="#Harmonika">
+            <div class="accordion-body">
+              Karte za filmove, ekskluzivni pokloni inspirisani glavnim
+              likovima filmova i još mnogo iznenađenja specijalno pripremljeni
+              samo za članove VISER Bioskopa.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="NaslovCetvrti">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#ZatvoriCetvrti">
+              Ne propustite željeni film ili događaj!
+            </button>
+          </h2>
+          <div id="ZatvoriCetvrti" class="accordion-collapse collapse" aria-labelledby="NaslovCetvrti"
+            data-bs-parent="#Harmonika">
+            <div class="accordion-body">
+              Kao VISER Bioskop član imate opciju "Zapamti film" ili "Zapamti
+              događaj" kako nikada ne biste propustili željeni film ili
+              događaj u bioskopu. Aktiviranjem ove opcije, na e-mail adresu
+              dobićete podsetnik o početku prikazivanja filma odnosno
+              dešavanju događaja.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="NaslovPeti">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#ZatvoriPeti">
+              Ocenite film i podelite vaše mišljenje i ideje sa ostalim VISER
+              Bioskop članovima
+            </button>
+          </h2>
+          <div id="ZatvoriPeti" class="accordion-collapse collapse" aria-labelledby="NaslovPeti"
+            data-bs-parent="#Harmonika">
+            <div class="accordion-body">
+              Zanima nas vaše mišljenje! Pozivamo vas da kao VISER Bioskop član
+              ocenjujete, komentarišete i kritikujete filmove koji se
+              prikazuju. Takođe, povežite se sa nama uz pomoć različitih
+              društvenih mreža kao što su Facebook, YouTube, Twitter i
+              Instagram.
+            </div>
+          </div>
+        </div>
+        <br><br>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a href="kontakt.html" class="btn btn-outline-success btn-lg" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Postanite član">Prijavite se</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br /><br />
+
+  <footer class="footer text-center p-3">
+    <span>© 2020 Copyright: </span><a href="https://www.viser.edu.rs/">VISER</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })</script>
+</body>
+
+</html>

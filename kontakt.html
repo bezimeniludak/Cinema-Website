@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Aleksa Petrovic, aleksanrt3319@gs.viser.edu.rs">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Bioskop</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" id="logo" alt="" width="30" height="30" class="d-inline-block align-text-top">
+        VIŠER Bioskop
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Pocetna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="filmovi.html">Filmovi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clanstvo.html">Članstvo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galerija.html">Galerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="display-4">Kontakt</h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-5">
+        <h1 class="display-6">Forma</h1>
+        <hr>
+        <form action="#" class="form" id="form" novalidate>
+          <label for="ImePrezime" class="form-label">Ime i prezime</label>
+          <input type="text" class="form-control" placeholder="Unesite vase ime i prezime" name="ImePrezime"><br>
+
+          <label for="E-mail" class="form-label">E-mail</label>
+          <input type="email" class="form-control" placeholder="Unesite vas E-mail" name="Email"><br>
+
+          <label for="Password" class="form-label">Lozinka</label>
+          <input type="password" id="password" class="form-control" name="Password"
+            placeholder="Unesite vašu lozinku"><br>
+
+          <label for="Provera" class="form-label">Potvrda za lozinku</label>
+          <input type="password" class="form-control" name="Provera" placeholder="Potvrdite vašu lozinku"><br>
+
+          <label for="Telefon" class="form-label">Telefon</label>
+          <input type="tel" class="form-control" name="Telefon" placeholder="Unesite vaš broj telefona"><br>
+
+          <label for="Film" class="form-label">Film</label>
+          <select class="form-select" placeholder="Izabeite film" name="Film">
+            <option value="">Izaberite Film</option>
+            <option value="1">Mračni vitez</option>
+            <option value="2">Gospodar Prstenova</option>
+            <option value="3">Početak</option>
+            <option value="4">Povratak u budućnost</option>
+            <option value="5">Kum</option>
+            <option value="6">Petparačke priče</option>
+            <option value="7">Bekstvo iz Šošenka</option>
+            <option value="8">Zvezdani Ratovi</option>
+            <option value="9">Matriks</option>
+            <option value="10">Osmi putnik</option>
+          </select>
+          <br>
+
+          <label for="Sala" class="form-label">Sala</label>
+          <select class="form-select" placeholder="Izaberite salu" name="Sala">
+            <option value="">Izaberite Salu</option>
+            <option value="1">Sala Desno</option>
+            <option value="2">Sala Levo</option>
+            <option value="3">Gornja Sala Levo</option>
+            <option value="4">Gornja Sala Desno</option>
+          </select>
+          <br>
+
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="submit" data-bs-toggle="tooltip" data-bs-placement="bottom"
+              title="Posaljite formu" data-bs-toggle="collapse" data-bs-target="#alert">
+              Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-7">
+        <h1 class="display-6">Info</h1>
+        <hr>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.613067376136!2d20.477827315732426!3d44.76830538762634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70f8df8b60e1%3A0x8fd9cdf24bd4d39!2sVojvode%20Stepe%20283%2C%20Beograd!5e0!3m2!1sen!2srs!4v1618486181992!5m2!1sen!2srs"
+          width="100%" height="450" style="border:0; border-radius: 30px;" allowfullscreen="" loading="lazy"></iframe>
+        <br>
+        <h5 class="h5">Adresa Bioskopa</h5>
+        <span>Visoka škola elektrotehnike i računarstva strukovnih studija, Beograd, 11010 Voždovac, ul. Vojvode Stepe
+          br. 283.</span>
+        <br><br>
+        <h5 class="h5">Kontakt informacije</h5>
+        <span>
+          Poslovni sekretar, Ljiljana Džunić: <a href="tel:+381 11 2471 099">+381 11 2471 099</a>,
+          <a href="mailto:ljiljana.dzunic@viser.edu.rs">ljiljana.dzunic@viser.edu.rs</a><br>
+
+          Sekretar škole, Srđan Radisavljević: <a href="tel:+381 11 3950 034">+381 11 3950 034</a>,
+          <a href="mailto:srdjan.radisavljevic@viser.edu.rs">srdjan.radisavljevic@viser.edu.rs</a><br>
+
+          Studentska služba, Marko Jokić: <a href="tel:+381 11 3970 429">+381 11 3970 429</a>,
+          <a href="mailto: marko.jokic@viser.edu.rs"> marko.jokic@viser.edu.rs</a><br>
+
+          Računovodstvo, Marijana Pantović: <a href="tel:+381 11 3950 003">+381 11 3950 003</a>,
+          <a href="mailto:marijana.pantovic@viser.edu.rs">marijana.pantovic@viser.edu.rs</a><br>
+        </span>
+        <br>
+        <h5 class="h5">Gradski prevoz</h5>
+        <span>
+          Autobusi: 33, E9 <br>
+          Tramvaji: 9, 10, 14 <br>
+          Stajalište: Visoka škola elektrotehnike i računarstva (stari naziv: Kapetana Zavišića)
+        </span>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <footer class="footer text-center p-3">
+    <span>© 2020 Copyright: </span><a href="https://www.viser.edu.rs/">VISER</a>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.2/jquery.validate.min.js"></script>
+  <script src="js/validacija.js"></script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+</body>
+
+</html>

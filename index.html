@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Aleksa Petrovic, aleksanrt3319@gs.viser.edu.rs" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Bioskop</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" id="logo" alt="" width="30" height="30" class="d-inline-block align-text-top" />
+        VIŠER Bioskop
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Pocetna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="filmovi.html">Filmovi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="clanstvo.html">Članstvo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galerija.html">Galerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="display-4">VIŠER Bioskop</h1>
+    <hr />
+    <p class="fs-4 text-center" style="background: url(img/background-left-top.jpg) fixed; background-size: cover;">Dobro došli na VIŠER Bioskop sajt! Visoka Škola Elektrotehnike i Računarstva organizuje
+      filmsko veče svake nedelje u 20 časova i ovde možete pronaći sve informacije o ovom događaju.
+      <br><br>
+      Odabir filma koji će svima biti zanimljiv može predstavljati najveći izazov. Kako bi smo se postarali o tome da
+      svi u filmovima uživaju podjednako, izdvojili smo 4 sale koje će puštati najpopularnije filmove koji budu
+      izglasani u anketi koju možete popuniti na Moodle Stranici u sekciji Vodič za studente. Ovomesečni izbor filmova
+      možete pogledati na stranici <a href="filmovi.html" class="btn btn-primary">Filmovi</a> ili <a
+        href="galerija.html" class="btn btn-primary">Galerija</a>.
+      <br><br>
+      Cena karte je 200 din, ili se možete učaniti u VIŠER Bioskop Klub za 500 din mesečno. <br>
+      <a href="clanstvo.html" class="btn btn-primary">Više informacija</a>
+    </p>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="img/darkknight_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mračni vitez</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/rings_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Gospodar prstenova: Družina prstena</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/inception_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Početak</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/future_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Povratak u budućnost</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/godfather_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Kum</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/pulp_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Petparačke priče</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/shawshank_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bekstvo iz Šošenka</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/starwars_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ratovi zvezda - epizoda IV: Nova nada</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/matrix_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Matriks</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/alien_banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Osmi putnik</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h5 class="display-5">Istorija bioskopa</h5>
+    <hr>
+    <p style="text-align: justify;">Prvi nemi filmovi (1895 do 1927) su imali i pijanistu koji je gledajući film pratio
+      isti odgovarajućom muzikom.
+
+      Uskoro, a pogotovu kada je otkriven tonski film, grade se filmske dvorane.
+
+      U filmskim salama - bioskopima, pre filmova davali su se i "žurnali" - preteča TV dnevnika. Vesti su naravno bile
+      stare najmanje desetak dana.
+
+      Film je bio jeftina zabava, pa je poseta bioskopima bila velika. Bilo je "in" odvesti devojku u bioskop. Naročito
+      u zadnje redove. <br><br>
+
+      Napredkom filmske tehnologije menjale su se i filmske dvorane. Jedna od prvih je bio "Sinemaskop".
+
+      Potom je uvedeno stereo ozvučenje, a razvijeni su i "trodimenzionalni" filmovi koje je publika gledala sa
+      specijalnim kartonskim naočarima za jednokratnu upotrebu.
+
+      Zatim su razvijene bioskopske dvorane gde su se pritiskom na dugme tresla sedišta (filmovi katastrofe).
+
+      Poslednja inovacija, japanski pronalazak, su sale u kojima se tokom predstave ubacuju različiti cvetni mirisi.
+
+      Na bioskope je bila velika navala, pa se pojavilo i novo zanimanje "tapkaroš". Tapkaroši su kupovali karte u
+      velikim količinama i onda neposredno pred projekciju prodavali po višim cenama. Imali i svoj kodeks, karta se nije
+      smela prodati "po ceni" - ako je zanimanje bilo manje od očekivanog, karte su se cepale. Policija ih je, naravno,
+      gonila. <br><br>
+
+      U pojedinim zemljama je bilo dozvoljeno pušenje za vreme predstava. Grickanje semenki od bundeve je takođe bilo
+      vrlo popularno, ali ne i dozvoljeno. Prodavci semenki su bili obavezni deo miljea pred bioskopsku predstavu.
+
+      Mnoge sale su grejane klasičnim pećima na drva (nije bilo centralnog grejanja). Za vreme predstave radnice u
+      biskopu su posebnim pumpama rasprašivale u vazduh miris na bazi kolonjske vode, pošto je i ventilacija bila
+      nedovoljna, a predstave su se davale jedna za drugom.
+
+      U prigradskim bioskopima su se skupljali lokalni momci, i smatralo se izuzetnom zabavom, glasno komentarisati
+      film. Jedan od fazona je bio da neko počne da viče "ima li u sali doktora!!??" i kada bi se neki slučajni doktor
+      javio, misleći da je nekom pozlilo, sledilo bi pitanje "Doktore, kako vam se sviđa film?!".
+
+      U nekim zemljama su popodnevne predstave (za penzionere) bile jeftinije da bi se smanjio pritisak na večernje
+      predstave. <br><br>
+
+      Za filmove su štampani programi u vidu letka, na kojima je prepričan film, pobrojani glumci i stvaraoci filma kao
+      i fotografije iz najinteresantnijih delova filma. Mnogi su to kupovali pa čak i sakupljali!
+
+      Takođe štampani su za svaki film i filmski plakati koji su se lepili po gradu i nalazili u izlogu bioskopa. Ovi
+      plakati su takođe bili meta kolekcionara.
+
+      Pojavom televizije interesovanje za posete bioskopima opada. Pojavom videa, VHS-a i video klubova, a pogotovu
+      DVD-a i "kućnih bioskopa" klasični bioskopi definitivno gube bitku.
+
+      Piratska izdanja su takođe dala svoj značajan doprinos u procesu gašenja bioskopa.</p>
+  </div>
+  <br /><br />
+
+  <footer class="footer text-center p-3">
+    <span>© 2020 Copyright: </span><a href="https://www.viser.edu.rs/">VISER</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })</script>
+</body>
+
+</html>

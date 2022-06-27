@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Aleksa Petrovic, aleksanrt3319@gs.viser.edu.rs" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Bioskop</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" id="logo" alt="" width="30" height="30" class="d-inline-block align-text-top" />
+        VIŠER Bioskop
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Pocetna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="filmovi.html">Filmovi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="clanstvo.html">Članstvo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galerija.html">Galerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="display-4">Filmovi</h1>
+    <hr />
+
+    <div class="card mb-3 levo">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/darkknight_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Mračni Vitez <span class="badge bg-primary">Popularno</span></h5>
+            <p class="card-text" style="text-align: justify;">
+              Mračni vitez (engl. The Dark Knight) je film iz 2008. godine o superheroju. Režirao,
+              producirao i delom ga je napisao Kristofer Nolan. Zasnovan je na Betmenu, liku Di-Si Komiksa i nastavak je
+              filma iz 2005, Betmen počinje. Drugi je deo Nolanove triologije o Betmenu. Kristijan Bejl se ponovo
+              pojavljuje kao Brus Vejn odnosno Betmen zajedno sa Majklom Kejnom (Alfred Penivort), Garijem Oldmanom
+              (Džejms Gordon) i Morganom Frimanom (Lucijus Foks). U filmskoj seriji premijerno se pojavljuje lik Harvija
+              Denta (Aron Ekhart), novoizabranog okružnog tužioca Gotama koji se pridružuje Betmenu i policiji sa ciljem
+              da se obračuna sa nadolazećom opasnošću izazvanom likom koji sebe naziva Džokerom (Hit Ledžer).
+            </p>
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor1">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor1" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Mračni Vitez - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/EXeTwQWrcwY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 desno">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/rings_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Gospodar prstenova: Družina prstena </h5>
+            <p class="card-text" style="text-align: justify;">
+              Mračni gospodar Sauron traži Jedinstveni Prsten kojim će pokoriti Srednju zemlju. Prsten se našao u rukama
+              mladog hobita Froda Baginsa, koji ga mora uništiti kako bi porazio Saurona i njegove snage. Sudbina
+              Srednje zemlje zavisi od Froda i osam njegovih prijatelja iz Družine Prstena. Tako počinje putovanje u
+              Ukletu planinu u zemlji Mordor, a to je jedino mesto na kojem se Prsten može uništiti.
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor2">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor2" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Gospodar prstenova: Družina prstena - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/cKEGZ-CvWHk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 levo">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/inception_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Početak</h5>
+            <p class="card-text" style="text-align: justify;">
+              Početak (engl. Inception) američki je akcioni film iz 2010. godine. Scenarista, producent i režiser filma
+              je Kristofer Nolan, a glavne uloge tumače Leonardo Dikaprio, Ken Vatanabe, Džozef Gordon-Levit, Tom Hardi,
+              Marion Kotijar, Eliot Pejdž, Kilijan Marfi i Tom Berendžer. Film govori o pljačkašu zvanom Dom Kob (Dom
+              Cobb) koji ulazi u snove drugih ljudi kako bi prikupio informacije koje su inače nedostupne. Njegove
+              sposobnosti koštale su ga njegove porodice i državljanstva, ali prilika za iskupljenje i povratak starom
+              životu javlja se kada Kob i njegov tim specijalista biva upošljen da usadi određenu ideju u podsvest
+              njihove mete. Naziv filma odnosi se na zadatak usađivanja ideje umesto krađe iste — koncept s kojim je
+              Kob manje upoznat.
+            </p>
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor3">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor3" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Početak - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/YoHD9XEInc0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 desno">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/future_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Povratak u budućnost</h5>
+            <p class="card-text" style="text-align: justify;">
+              Radnja ove naučnofantastične, avanturističke komedije govori o tinejdžeru po imenu Marti Mekflaj (Marty
+              McFly) koji nesrećnim slučajem odlazi u prošlost iz 1985. u 1955. godinu, pomoću vremeplova koji je
+              napravio njegov prijatelj doktor Emet Braun (Emmet Brown). Marti u prošlosti sreće svoje roditelje kao
+              tinejdžere, a njegova majka se igrom slučaja zaljubljuje u njega. Kako ovo preti da ugrozi sâmo njegovo
+              postojanje, on pokušava da nekako izmeni istoriju kako bi se njegovi roditelji ponovo zaljubili jedno u
+              drugo. Za to vreme, doktor Braun iz 1955, koga Marti u međuvremenu nalazi i objašnjava o mu čemu se radi,
+              pokušava da modifikuje vremeplov koji je ostao bez goriva, kako bi Martija vratio nazad u 1985. godinu.
+            </p>
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor4">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor4" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Povratak u budućnost - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/qvsgGtivCgs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 levo">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/godfather_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Kum </h5>
+            <p class="card-text" style="text-align: justify;">
+              Kum (engl. The Godfather) je američki dramski film režisera Fransisa Forda Kopole iz 1972. godine s
+              Marlonom Brandom, Alom Pačinom, Džejmsom Kanom, Robertom Duvalom i Dajanom Kiton. Film je adaptacija
+              istoimenog romana, koji je napisao Mario Puzo. Priča filma pokriva period od 10 godina (1945—1955) i prati
+              italijansko-američku porodicu Korleone.
+            </p>
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor5">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor5" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Kum - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/1x0GpEZnwa8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 desno">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/pulp_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Petparačke priče</h5>
+            <p class="card-text" style="text-align: justify;">
+              Petparačke priče (engl. Pulp Fiction) je američki neonoar kriminalistički film iz 1994. godine, u režiji
+              Kventina Tarantina. Poznat je po nelinearnoj radnji, eklektičnom dijalogu, ironičnoj mešavini humora i
+              nasilja i referenci iz filma i popularne kulture. Nominovan je za sedam Oskara, uključujući najbolji film;
+              Tarantino i Averi su osvojili nagradu za najbolji originalni scenario. Na Filmskom festivalu u Kanu je
+              nagrađen Zlatnom palmom. Veliki komercijalni uspeh revitalizovao je karijeru glavnog glumca, Džona
+              Travolte, koji je bio nominovan za Oskara, kao i Samjuel L. Džekson i Uma Terman.
+            </p>
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor6">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor6" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Petparačke priče - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/s7EdQ4FqbhY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 levo">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/shawshank_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Bekstvo iz Šošenka</h5>
+            <p class="card-text" style="text-align: justify;">
+              Bekstvo iz Šošenka (engl. The Shawshank Redemption) je američki drama film iz 1994. godine reditelja i
+              scenariste Frenka Darabonta snimljen po romanu Rita Hejvort i bekstvo iz Šošenka autora Stivena Kinga, dok
+              je producent filma Niki Marvin. Muziku je komponovao Tomas Njuman.
+
+              Naslovne uloge tumače Tim Robins i Morgan Friman kao zatvorenici Endi Dufren i Elis Bojd Reding, dok su u
+              ostalim ulogama Bob Ganton, Vilijam Sadler, Klensi Braun, Gil Belous i Džejms Vajtmor. Svetska premijera
+              filma je bila održana 23. septembra 1994. u Sjedinjenim Američkim Državama.
+
+              Film govori o priči Endija Dufrena, bankara koji je proveo 19 godina u Šošenk Državnom zatvoru za ubistvo
+              žene i njenog ljubavnika uprkos tome što se izjasnio kao nevin. Tokom boravka u zatvoru, sprijateljio se
+              sa zatvorenikom, Elisom Bojdom Redingom (Morgan Friman), i čuvari su ga štitili pošto ga je upravnik
+              koristio za pranje novca.
+            </p>
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor7">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor7" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Bekstvo iz Šošenka - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/NmzuHjWmXOc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 desno">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/starwars_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Ratovi zvezda - epizoda IV: Nova nada</h5>
+            <p class="card-text" style="text-align: justify;">
+              Ratovi zvezda — epizoda IV: Nova nada (engl. Star Wars: Episode IV – A New Hope), originalno nazvan Ratovi
+              zvezda (engl. Star Wars) je naučnofantastični film iz 1977. godine, scenariste i reditelja Džordža Lukasa.
+              Prvi je film iz sage Ratova zvezda, ali je četvrti po hronološkom redu. Glavne uloge tumače Mark Hamil,
+              Harison Ford, Keri Fišer, Piter Kušing, Alek Ginis, Dejvid Prauz, Džejms Erl Džouns, Entoni Danijels, Keni
+              Bejker i Piter Mejhju.
+
+              Lukas je dobio ideju o naučnofantastičnom filmu po uzoru na stripove Fleš Gordon u vreme izlaska njegovog
+              prvog filma THX 1138 (1971), a počeo je da radi na ovom ostvarenju nakon realizacije filma Američki
+              grafiti (1973). Film se fokusira na putovanje Luka Skajvokera, koji zajedno sa džedaj učiteljom Obi-Van
+              Kenobijem, krijumčarom Han Solom i njegovim ko-pilotom vukijem Čubakom, pokušava da oslobodi princezu Leju
+              iz kandži tiranske Galaktičke Imperije. Istovremeno, oni moraju da dostave planove za Zvezdu smrti,
+              Imperijalnu svemirsku stanicu sposobnu za uništavanje planeta, koje prenose droidi R2-D2 i C-3PO,
+              Pobunjeničkom savezu, ali se suočavaju sa mračnim gospodarom Sita, Dart Vejderom.
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor8">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor8" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Ratovi zvezda — epizoda IV: Nova nada - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/gBKx63Y6rG4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 levo">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/matrix_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Matriks</h5>
+            <p class="card-text" style="text-align: justify;">
+              Matriks (engl. The Matrix) naučnofantastični je akcioni film iz 1999. scenariste i reditelja Lane i Lili
+              Vačauski. Glavne uloge igraju Kijanu Rivs, Lorens Fišbern, Kari-En Mos, Džo Pantolijano i Hjugo Viving.
+              Film predstavlja distopijsku budućnost gde realnost kako je doživljava većina ljudi jeste simulirana
+              stvarnost, koja se zove „Matriks”; stvaraju je osećajne mašine da bi sebi potčinile ljudsku populaciju,
+              čiju toplinu tela i električnu aktivnost koriste kao izvor energije. Računarski programer Neo saznaje da
+              je ovo istina i počinje pobunu protiv mašina, koja uključuje druge ljude koji su oslobođeni iz „sveta
+              sna”.
+
+              Matriks je poznat po vizelnom efektu poznatom kao bullet time. Film je primer sajberpank podžanra. Sadrži
+              mnoge reference na filozofske i religijske ideje, a značajno se odnosi na radove kao što je Platonov Mit o
+              pećini, Bodrijarov Simulacra and Simulation i Kerolova Alisa u zemlji čuda.
+            </p>
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor9">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor9" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Matriks - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/vKQi3bBA1y8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 desno">
+      <div class="row g-0">
+        <div class="col-md-2 p-3" style="max-width:100%;margin: auto;">
+          <img src="img/alien_poster.jpg" alt="..." class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Osmi putnik</h5>
+            <p class="card-text" style="text-align: justify;">
+              Osmi putnik (engl. Alien; „Tuđin”) je naučnofantastični-horor film iz 1979. reditelja Ridlija Skota i
+              pisca Dena O'Benona. Baizran na priči O'Benona i Ronalda Šuseta, prati posadu komercijalnog svemirskog
+              tegljača Nostromo, koja nailazi na istoimenog Osmog putnika, agresivnog i smrtonosnog vanzemaljca koji je
+              pušten na brod. Glave uloge tumače Tom Skerit, Sigorni Viver, Veronika Kartrajt, Hari Din Stanton, Džon
+              Hert, Ijan Holm i Jafet Koto. Producirali su ga Gordon Karol, Dejvid Gajler i Volter Hil preko svog
+              preduzeća Brandywine Productions i distribuirao ga je 20th Century Fox. Gajler i Hil su revidirali i
+              dopunili scenario; Šuset je bio izvršni producent. Osmog putnika i prateće artefakte dizajnirao je
+              švajcarski umetnik Hans Giger Rudi, dok su konceptualni umetnici Ron Kob i Kris Fos dizajnirali više
+              ljudske postavke.
+            </p>
+
+            <div class="container">
+              <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#modalniProzor10">
+                Pogledajte trejler</button>
+              <a href="kontakt.html" class="btn btn-success">Kupite kartu</a>
+              <div class="modal fade" id="modalniProzor10" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="width: 600px; height: 420px">
+                    <div class="modal-header">
+                      <h4 class=" modal-title">Osmi putnik - Trejler</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/LjLamj-b0I8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <br /><br />
+
+  <footer class="footer text-center p-3">
+    <span>© 2020 Copyright: </span><a href="https://www.viser.edu.rs/">VISER</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })</script>
+</body>
+
+</html>

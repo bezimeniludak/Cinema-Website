@@ -1,0 +1,84 @@
+$borer_radius: 30px;
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.form {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: $borer_radius;
+  background-image: url(img/background-2.jpg);
+  background-attachment: fixed;
+  padding: 20px;
+}
+.card-text {
+  background-color: rgba(0, 0, 0, 0);
+}
+.card.levo {
+  background-image: url(img/background-left-top.jpg);
+  background-position: left;
+}
+.card.desno {
+  background-image: url(img/background-right-top.jpg);
+  background-position: right;
+}
+.card.levo,
+.card.desno {
+  background-size: cover;
+  background-attachment: fixed;
+}
+.form-control,
+.form-select,
+.btn,
+.galerija {
+  border-radius: $borer_radius;
+}
+
+a[href^="mailto"],
+a[href^="tel:"] {
+  white-space: nowrap;
+}
+.nav-link.active {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 4px;
+}
+footer {
+  background-color: orange;
+}
+.form-control.error,
+.form-select.error {
+  border: #dc3545 3px solid;
+}
+.form-control.valid,
+.form-select.valid {
+  border: #198754 3px solid;
+}
+.galerija {
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+#mProzor1,
+#mProzor2,
+#mProzor3,
+#mProzor4,
+#mProzor5,
+#mProzor6,
+#mProzor7,
+#mProzor8,
+#mProzor9,
+#mProzor10 {
+  animation-name: zoom;
+  animation-duration: 0.8s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
