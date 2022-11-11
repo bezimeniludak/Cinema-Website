@@ -2,7 +2,7 @@
 
 [**The website**][my website]
 
-This is a website of an imaginary cinema that takes place in my faculty. The idea is that every week a movie night is organized and students can preview what movies are available.
+This is a website of an imaginary cinema that takes place in a faculty. The idea is that every week a movie night is organized and students can preview what movies are available.
 
 The website has been built using the CSS framework **Bootstrap** and is fully responsive. Additional styles have been created using **SASS**. The contact form has a simple validation check using **JavaScript**.
 
